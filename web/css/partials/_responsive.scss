@@ -1,0 +1,210 @@
+$breakpoint-tablet: 768px;
+@media (max-width: $breakpoint-tablet) {
+    header {
+        height: 823px !important;
+    }
+
+    .background-menu-itens {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: 1999;
+        background: rgba(0, 0, 0, 0.363);
+    }
+
+    .menu-itens-mobile {
+        width: 100%;
+        height: 180px;
+        position: fixed;
+        background-color: var(--color-white-light);
+        z-index: 2000;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        padding-top: 26px;
+
+        img {
+            width: 22px;
+            height: 22px;
+            position: absolute;
+            top: 36px;
+            right: 46px;
+        }
+
+        a {
+            color: var(--color-primary-dark);
+            margin-left: 0;
+            font-size: 18px;
+        }
+    }
+
+    h2 {
+        color: var(--color-white-light);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 37px;
+        line-height: 55px;
+        text-align: center;
+        width: 100%;
+    }
+
+    h6 {
+        color: var(--color-white-light);
+        font-style: normal;
+        font-weight: 100;
+        font-size: 14px;
+        line-height: 25px;
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    h5 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 0;
+    }
+
+    #logo {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 31px;
+
+        &::after {
+            content: "";
+            width: 130px;
+            left: 30px;
+            height: 0.5px;
+        }
+    }
+
+    .menu-web {
+        display: none !important;
+    }
+
+    .menu-mobile {
+        display: flex !important;
+        background: green;
+    }
+
+    .teste  {
+        position: fixed;
+        padding: 20px;
+        z-index: 1999;
+        background: var(--color-primary-dark);
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .button-cta {
+        // margin: 0 auto;
+        height: 50px;
+    }
+
+    #conteudo-header {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        h2 {
+            margin-top: 32px;
+        }
+    }
+
+    .img-header {
+        justify-content: center;
+        margin-top: 46px;
+
+        img {
+            width: 181px;
+            height: 374px;
+        }
+    }
+
+    #encontre,
+    #veja {
+        height: 1150px;
+        margin-top: 40px;
+
+        .conteudo-encontre {
+            flex-direction: column-reverse;
+        }
+
+        img {
+            width: 182px;
+            height: 374px;
+            margin: 0 auto;
+        }
+
+        ul {
+            padding-left: 0 !important;
+        }
+
+        li {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            // justify-content: center;
+        }
+
+        img {
+            margin-bottom: 40px;
+        }
+    }
+
+    #baixar {
+        #conteudo-baixar {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            z-index: 1998;
+        }
+
+        h2 {
+            width: 80%;
+        }
+
+        h3 {
+            font-style: normal;
+            font-weight: 200;
+            font-size: 28px;
+            line-height: 42px;
+            text-align: center;
+            width: 90%;
+        }
+
+        .container-botoes-baixar {
+            flex-direction: column-reverse;
+            align-items: center;
+
+            button {
+                width: 78%;
+                height: 70px;
+                margin-bottom: 32px;
+                display: flex;
+                justify-content: center;
+                color: var(--color-primary-dark);
+
+                img {
+                    width: 33px;
+                    height: 39px;
+                    margin-right: 16px;
+                }
+            }
+        }
+    }
+
+    #veja {
+        height: auto;
+
+        h6 {
+            margin-bottom: 30px;
+        }
+    }
+}
