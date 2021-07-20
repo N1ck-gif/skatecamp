@@ -1,0 +1,20 @@
+<ion-tabs>
+
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button tab="tab1" (click)="selectTab('tab1')">
+      <img src="{{ tab === 'tab1' ? '/assets/img/home.svg' : '/assets/img/home outline.svg' }}" alt="home">
+      <div class="circle" *ngIf="tab === 'tab1'"></div>
+    </ion-tab-button>
+
+    <ion-tab-button tab="tab2" (click)="selectTab('tab2')">
+      <img src="{{ tab === 'tab2' ? '/assets/img/search.svg' : '/assets/img/search outline.svg' }}" alt="search">
+      <div class="circle" *ngIf="tab === 'tab2'"></div>
+    </ion-tab-button>
+
+    <ion-tab-button tab="tab3" (click)="selectTab('tab3')">
+      <img src="{{ tab === 'tab3' ? '/assets/img/trophy.svg' : '/assets/img/trophy outline.svg' }}" alt="trophy" id="trophy">
+      <div class="circle" *ngIf="tab === 'tab3'"></div>
+    </ion-tab-button>
+  </ion-tab-bar>
+
+</ion-tabs>

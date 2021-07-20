@@ -1,0 +1,108 @@
+<ion-content>
+  
+  <div class="background-bottom"></div>
+  <img class="img-background" src="/assets/img/vans.png" alt="img-card">
+  <div class="background-right"></div>
+  
+  <ion-grid fixed>
+    <ion-row class="content">
+      <ion-col size="12">
+        <ion-row style="height: 42vh; position: relative;" class="ion-margin-bottom">
+          <ion-col size="12" class="d-flex ion-justify-content-between" style="flex-direction: column;">
+
+            <div class="data d-flex ion-justify-content-center ion-align-items-center">
+              <h4 class="ion-no-margin">04/12</h4>
+            </div>
+            
+            <ion-row style="margin-top: 6px;">
+              <ion-col size="6" class="ion-no-padding">
+                <button type="button" class="button-back" (click)="goBack()">
+                  <img src="/assets/img/back.svg" alt="back-button">
+                </button>
+              </ion-col>
+              <ion-col size="6" class="ion-no-padding d-flex ion-justify-content-end">
+                <button type="button" class="button-back">
+                  <img src="/assets/img/share.svg" alt="back-button">
+                </button>
+              </ion-col>
+            </ion-row>
+
+            <ion-row>
+              <ion-col size="12" class="d-flex ion-align-items-end ion-no-padding">
+                <h3 class="ion-no-margin"> Campeonato da Vans </h3>
+              </ion-col>
+            </ion-row>
+
+          </ion-col>
+        </ion-row>
+
+        <ion-row class="container-informacoes">
+          <ion-col size="12">
+
+            <ion-row class="ion-no-padding">
+              <ion-col size="1" class="ion-no-padding ">
+                <img src="/assets/img/room.svg" alt="icone-localizacao">
+              </ion-col>
+              <ion-col size="11" class="ion-no-padding">
+                <h5 class="ion-no-margin">SP - Parque Villa Lobos</h5>
+              </ion-col>
+            </ion-row>
+
+            <ion-row class="ion-no-padding ion-margin-top">
+              <ion-col size="1" class="ion-no-padding ">
+                <img src="/assets/img/clock.svg" alt="icone-localizacao">
+              </ion-col>
+              <ion-col size="11" class="ion-no-padding">
+                <h5 class="ion-no-margin">14:00 - 18:00</h5>
+              </ion-col>
+            </ion-row>
+
+            <ion-row class="ion-no-padding ion-margin-top">
+              <ion-col size="12" class="ion-no-padding">
+                <h5 class="ion-no-margin" style="margin-left: 3px;">Categorias & Prêmios</h5>
+              </ion-col>
+            </ion-row>
+
+            <ion-row class="ion-no-padding">
+              <ion-col size="12" class="ion-no-padding">
+                <ul class="ion-no-margin">
+                  <li>
+                    <h6 class="ion-no-margin">Inciante</h6>
+                    <h6 class="ion-no-margin premio">R$ 100 + Shape</h6>
+                  </li>
+                  <li>
+                    <h6 class="ion-no-margin">Amador</h6>
+                    <h6 class="ion-no-margin premio">R$ 500 + Patrocinio</h6>
+                  </li>
+                  <li>
+                    <h6 class="ion-no-margin">Mirim</h6>
+                    <h6 class="ion-no-margin premio">R$ 100 + Camiseta</h6>
+                  </li>
+                </ul>
+              </ion-col>
+            </ion-row>
+
+          </ion-col>
+        </ion-row>
+
+        <ion-row class="d-flex ion-justify-content-center ion-margin-top ion-margin-bottom">
+          <ion-col size="11">
+            <ion-button (click)="onClick()" expand="block" fill="clear" shape="round">
+              Ver rota
+            </ion-button>
+          </ion-col>
+        </ion-row>
+
+        <ion-row>
+          <ion-col size="12">
+            <h4 id="title">Sobre</h4>
+            <p id="texto">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+              industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+              industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type </p>
+          </ion-col>
+        </ion-row>
+
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

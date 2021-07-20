@@ -1,0 +1,23 @@
+<ion-content [fullscreen]="true">
+  <ion-grid fixed>
+    <ion-row class="content">
+      <ion-col size="12">
+  
+        <ion-row>
+          <ion-col size="12">
+            <h4 id='logo'>SKATECAMP</h4>
+          </ion-col>
+        </ion-row>
+  
+        <ion-row style="margin-top: 24px;">
+          <ion-col size="12">
+            <h4>Próximos Campeonatos</h4>
+          </ion-col>
+        </ion-row>
+  
+        <app-card-campeonato [campeonatos]="campeonatos"></app-card-campeonato>
+
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

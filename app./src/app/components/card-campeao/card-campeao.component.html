@@ -1,0 +1,17 @@
+<ion-row class="d-flex ion-justify-content-center" style="padding: 0 8px;">
+  <ion-col size="12" class="ion-no-padding">
+    <div class="card-vencedor ion-margin-bottom" routerLink="/detalhes-campeao" *ngFor="let campeao of campeoes">
+      <ion-row class="h-100">
+        <ion-col size="4" class="ion-no-padding h-100">
+          <img src="{{ campeao.foto }}" alt="img-campeao">
+        </ion-col>
+        <ion-col size="8" class="ion-padding" style="padding-top: 8px;">
+          <h5 class="ion-no-margin">{{ campeao.nome }} <span>{{ campeao.data }}</span> </h5>
+          <p>{{ campeao.nome }}</p>
+          <p>{{ campeao.categoria }}</p>
+          <p>{{ campeao.local }}</p>
+        </ion-col>
+      </ion-row>
+    </div>
+  </ion-col>
+</ion-row>

@@ -1,0 +1,31 @@
+<ion-row class="ion-justify-content-center" style="padding: 0 6px;">
+  <ion-col size="12" class="ion-no-padding">
+    <div class="card ion-margin-bottom" *ngFor="let campeonato of campeonatos">
+      
+      <ion-row class="img-card" routerLink="/detalhes-campeonato">
+        <ion-col size="12" class="ion-no-padding">
+          <img src="{{ campeonato.foto }}" alt="imagem card">
+        </ion-col>
+      </ion-row>
+
+      <ion-row class="row-informacoes-card" style="padding-top: 4px">
+        <ion-col size="12" class="d-flex ion-justify-content-between">
+          <h5 class="ion-no-margin" routerLink="/detalhes-campeonato">{{ campeonato.nome }}</h5>
+          <img src="/assets/img/share.svg" alt="share">
+        </ion-col>
+      </ion-row>
+
+      <ion-row class="row-informacoes-card" routerLink="/detalhes-campeonato">
+        <ion-col size="12" class="d-flex ion-justify-content-between" style="padding-top: 0;">
+          <p class="ion-no-margin">{{ campeonato.local }}</p>
+          <p class="ion-no-margin">{{ campeonato.hora }}</p>
+        </ion-col>
+      </ion-row>
+
+      <div class="data d-flex ion-justify-content-center ion-align-items-center">
+        {{ campeonato.data }}
+      </div>
+
+    </div>
+  </ion-col>
+</ion-row>

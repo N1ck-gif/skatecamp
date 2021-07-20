@@ -1,0 +1,13 @@
+img {
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+}
+
+.circle {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: var(--color-primary-dark);
+    margin-top: 8px;
+}
