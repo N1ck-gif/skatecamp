@@ -2,13 +2,6 @@ ion-content {
     --background: var(--color-white-light);
 }
 
-img {
-    width: 64vw;
-    height: 54vh;
-    object-fit: cover;
-    z-index: 999;
-}
-
 .col-img {
     display: flex;
     align-items: center;

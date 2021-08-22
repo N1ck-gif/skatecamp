@@ -61,5 +61,16 @@ ion-select::part(icon) {
 }
 
 ion-button {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
+}
+
+.img-tutorial {
+    width: auto;
+    height: 50vh;
+    object-fit: contain;
+    z-index: 999;
+}
+
+.overflow-y-h {
+    --overflow: hidden;
 }
