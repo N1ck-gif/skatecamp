@@ -59,9 +59,13 @@ a {
   line-height: 31px;
   text-decoration: none;
   margin-left: 50px;
+  -webkit-transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
 }
 
 a:hover {
+  -webkit-transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
   color: var(--color-secondary);
 }
 
@@ -202,6 +206,8 @@ nav {
   height: 60px;
   background-color: var(--color-secondary);
   border: none;
+  -webkit-transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
 }
 
 .button-cta:hover {
@@ -328,12 +334,18 @@ nav {
   margin-top: 60px;
 }
 
+#baixar .container-botoes-baixar button img {
+  margin-right: 16px;
+}
+
 #baixar button {
   width: 300px;
   height: 80px;
   border: none;
   border-radius: 100px;
   background-color: var(--color-white-light);
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -344,6 +356,12 @@ nav {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+#baixar button:hover {
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  filter: brightness(90%);
 }
 
 footer {
