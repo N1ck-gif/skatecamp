@@ -25,9 +25,9 @@ Projeto desenvolvido com o intuito de praticar e aprimorar meus conhecimentos em
 ## **👀 Demonstração**
 Abaixo esta uma breve demonstração em formato gif sobre o projeto Web e o projeto Mobile.
 <p style="font-size: 14px; font-weight: bold">Web:</p> 
-<p style="display: flex; width: 100% height: 250px">
-    <img style="width: 400px; height: 100%" src="./git_assets/gif_web.gif"><br />
-    <img style="width: 110px; height: 100%; margin-left: 2vw" src="./git_assets/gif_mobile.gif"><br /><br />
+<p style="display: flex;">
+    <img width="200px" src="./git_assets/gif_web.gif"><br />
+    <img width="200px" style="margin-left: 16px" src="./git_assets/gif_mobile.gif"><br /><br />
 </p><br />
 
 <p style="font-size: 14px; font-weight: bold">Mobile:</p>
