@@ -109,7 +109,7 @@ $ ionic serve
 
 <a>
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/60737502?s=400&u=c7e1d85b575e56c0d54ae71ecf8099e27fd30c82&v=4" width="100px;" alt=""/>
- <br />
+ 
  <sub><b>Nicolas Santos</b></sub></a> <a>🚀</a>
  <br />
 
