@@ -3,9 +3,9 @@
  <p align="center">
     <a href="#-sobre-o-projeto">Sobre</a> •
     <a href="#-demonstracao">Demonstração</a> •
-    <a href="#tecnologias">Tecnologias</a> • 
+    <a href="#-tecnologias">Tecnologias</a> • 
     <a href="#-como-executar-o-projeto">Como executar</a> • 
-    <a href="#autor">Autor</a>
+    <a href="#-autor">Autor</a> • 
     <a href="#licenc-a">Licença</a> • 
 </p><br />
 
@@ -25,13 +25,13 @@ Projeto desenvolvido com o intuito de praticar e aprimorar meus conhecimentos em
 ## **👀 Demonstração**
 Abaixo esta uma breve demonstração em formato gif sobre o projeto Web e o projeto Mobile.
 <p style="font-size: 14px; font-weight: bold">Web:</p> 
-<div style="display: flex;">
-    <img style="width: 78%;" src="./git_assets/gif_web.gif"><br />
-    <img style="width: 22%; margin-left: 2vw" src="./git_assets/gif_mobile.gif"><br /><br />
+<div style="display: flex; width: 100% height: 250px">
+    <img style="width: 78%; height: 100%" src="./git_assets/gif_web.gif"><br />
+    <img style="width: 22%; height: 100%; margin-left: 2vw" src="./git_assets/gif_mobile.gif"><br /><br />
 </div><br />
 
 <p style="font-size: 14px; font-weight: bold">Mobile:</p>
-<img style="width: 280px" src="./git_assets/gif_app.gif">
+<img style="width: 200px !important" src="./git_assets/gif_app.gif">
 <br />
 
 --- 
