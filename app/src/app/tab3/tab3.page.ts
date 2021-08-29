@@ -10,7 +10,7 @@ export class Tab3Page {
   public campeoes: any = [
     {
       id: 1,
-      foto: '/assets/img/c1.png',
+      foto: '/assets/img/c5.jpg',
       nome: 'Nicolas Santos',
       nomeCamp: 'Campeonato da Zona Ouro',
       categoria: 'Iniciante',

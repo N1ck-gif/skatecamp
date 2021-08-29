@@ -10,19 +10,19 @@ export class Tab2Page {
   public campeonatos: any = [
     {
       id: 1,
-      foto: '/assets/img/vans.png',
-      nome: 'Campeonato da Vans',
-      local: 'SP - Parque Villa Lobos',
-      hora: '14:00 - 18:00',
-      data: '04/12'
-    },
-    {
-      id: 2,
       foto: '/assets/img/skatepark2.jpeg',
       nome: 'Campeonato Inside Out',
       local: 'SP - Itapevi - Centro',
       hora: '08:00 - 13:00',
       data: '10/07'
+    },
+    {
+      id: 2,
+      foto: '/assets/img/vans.png',
+      nome: 'Campeonato da Vans',
+      local: 'SP - Parque Villa Lobos',
+      hora: '14:00 - 18:00',
+      data: '04/12'
     },
     {
       id: 3,
