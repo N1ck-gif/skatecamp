@@ -96,7 +96,7 @@ $ cd app
 # Instale as dependências
 $ npm install
 
-# Execute a aplicação em modo de desenvolvimento
+# Execute a aplicação
 $ ionic serve
 
 # A aplicação será aberta na porta:8100 - acesse http://localhost:8100/
