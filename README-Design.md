@@ -85,7 +85,7 @@ Com base no Workflow, comecei a projetar as wireframes do projeto:
 
 ##### Mobile:
 <img src="./git_assets/wire-mobile.png">
-<br /><br />
+<br />
 
 ##### Landing Page Web:
 <img src="./git_assets/wire-web.png">
