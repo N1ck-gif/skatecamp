@@ -2,11 +2,11 @@
  
  <p align="center">
     <a href="#-entendendo-o-problema">Problema</a> •
-    <a href="#-why">Why</a> •
+    <a href="#1-why">Why</a> •
     <a href="#2-who">Who</a> • 
-    <a href="#-3-where-/-when">Where/When</a> • 
-    <a href="#-4-what">What</a> • 
-    <a href="#-5-how">How</a> • 
+    <a href="#3-where-/-when">Where/When</a> • 
+    <a href="#4-what">What</a> • 
+    <a href="#5-how">How</a> • 
     <a href="#-autor">Autor</a> • 
 </p><br />
 
@@ -85,7 +85,6 @@ Com base no Workflow, comecei a projetar as wireframes do projeto:
 
 ##### Mobile:
 <img src="./git_assets/wire-mobile.png">
-<br />
 
 ##### Landing Page Web:
 <img src="./git_assets/wire-web.png">
