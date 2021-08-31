@@ -99,11 +99,11 @@ _<ins>Estilo de cores:</ins>_ escolha de tons fortes, cinza cor da neutralidade,
 
 _<ins>Tipografia:</ins>_ a tipografia escolhida foi a Poppins pois oferece muitas variedades de peso da fonte e também fornece uma ótima leiturabilidade.
 
-<img src="./git_assets/fonts.png"><br />
+<img src="./git_assets/font.png"><br />
 
 _<ins>Componentes:</ins>_ os componentes como botão e input foram pensados de acordo com as cores principais da palheta de cores e a tipografia do styleguide.
 
-<img src="./git_assets/form.png"><br />
+<img src="./git_assets/components.png"><br />
 
 #### **O Protótipo**
 Depois de pronto o esqueleto do site e feito o guia de estilos, hora de aplicá-los no protótipo de alta fidelidade.
