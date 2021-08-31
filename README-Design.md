@@ -2,8 +2,8 @@
  
  <p align="center">
     <a href="#-entendendo-o-problema">Problema</a> •
-    <a href="#-1-why">Why</a> •
-    <a href="#-2-who">Who</a> • 
+    <a href="#-why">Why</a> •
+    <a href="#2-who">Who</a> • 
     <a href="#-3-where-/-when">Where/When</a> • 
     <a href="#-4-what">What</a> • 
     <a href="#-5-how">How</a> • 
@@ -110,7 +110,7 @@ _<ins>Componentes:</ins>_ os componentes como botão e input foram pensados de a
 Depois de pronto o esqueleto do site e feito o guia de estilos, hora de aplicá-los no protótipo de alta fidelidade.
 
 <p align="center">
-    <img width="100%" src="./git_assets/frame 2.png">
+    <img width="100%" src="./git_assets/prototipo.png">
 </p>
 
 ##### Mobile
