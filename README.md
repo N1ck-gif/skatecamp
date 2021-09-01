@@ -23,7 +23,7 @@ Projeto desenvolvido com o intuito de praticar e aprimorar meus conhecimentos em
 ---
 
 ## **🎨 Design**
-Recentemente realizei o curso de Design de Interfaces lecionado pelo Leandro Rezende, decidi então aplicar os conhecimentos e habilidades obtidos no curso neste projeto. Todo processo de design que realizei você pode conferir no arquivo <a href="./README-Design.md">README-Design.md</a>.
+Recentemente realizei o curso de Design de Interfaces lecionado pelo Leandro Rezende, decidi então aplicar os conhecimentos e habilidades obtidos no curso neste projeto. Todo processo de design que realizei você pode conferir no arquivo <a href="./README-Design.md" target="_blank">README-Design.md</a>.
 
 ---
 
