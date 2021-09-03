@@ -17,7 +17,7 @@
 
 Skatecamp - é uma forma de facilitar a busca por campeonatos de skate e de organizadores divulgarem esses eventos na plataforma.
 
-Projeto desenvolvido com o intuito de praticar e aprimorar meus conhecimentos em UX & UI design, desenvolvimento mobile e desenvolvimento web com responsivo.
+Projeto desenvolvido com o intuito de praticar e aprimorar meus conhecimentos em UX & UI design, desenvolvimento mobile e desenvolvimento web responsivo.
 <br />
 
 ---
@@ -28,7 +28,7 @@ Recentemente realizei o curso de Design de Interfaces lecionado pelo Leandro Rez
 ---
 
 ## **👀 Demonstração**
-Abaixo esta uma breve demonstração em formato gif sobre o projeto Web e o projeto Mobile.
+Abaixo está uma breve demonstração em formato gif sobre o projeto Web e o projeto Mobile.
 <p style="font-size: 14px; font-weight: bold">Web:</p> 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
     <img width="620px" src="./git_assets/gif_web.gif">
